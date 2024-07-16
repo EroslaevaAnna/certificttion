@@ -7,6 +7,6 @@ public class Task1 {    private static final int letterCount =15;
         fenceLength = Integer.parseInt(myScanner.nextLine());
         int stringLength = letter3 * (letterCount / 3) + spaceCount * space;        if (fenceLength < stringLength)
             System.out.println("Надпись не поместится!");        else
-            System.out.println("111Надпись поместится! Можно признаться в любви!");
+            System.out.println("1111Надпись поместится! Можно признаться в любви!");
     }
 }

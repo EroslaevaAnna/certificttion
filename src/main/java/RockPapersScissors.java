@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class RockPapersScissors {
     public static void main(String[] args) {
         String[] rps = {"К", "Н", "Б"};
-        String computerMove;
-        computerMove = rps[new Random().nextInt(rps.length)];
         Scanner myScanner = new Scanner(System.in);
         String playerMove;
         for (int round = 1; round <= 5; round++) {
             System.out.println("\nРаунд " + round + ": Твой ход: Выбери (К), (Н) или (Б)");
+            String computerMove;
+            computerMove = rps[new Random().nextInt(rps.length)];
             do {
                 playerMove = myScanner.nextLine();
                 if (!playerMove.equals("К") && !playerMove.equals("Н") && !playerMove.equals("Б")) {

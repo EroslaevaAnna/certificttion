@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Task1 {
-    private static final int letterCount = 11;
+    private static final int letterCount = 15;
     private static final int spaceCount = 3;
     private static final int letter3 = 62;
     private static final int space = 12;
